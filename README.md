@@ -184,7 +184,7 @@ yarn build
 ## Threshold requirement
 > (WIP), coming soon...
 - Errors: (GS026, GS013)
-
+- execution.ts & allowanceNSig.spec.ts are not completed and WIP
 ## Notes
 
 This is a Fork of the Allowances Module @Safe-Modules repository. I've modified the contract and extended the Tests.
