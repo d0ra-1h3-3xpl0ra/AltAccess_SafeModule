@@ -1,11 +1,11 @@
-<h1 align="center"> Safe Module Take Home Task Documentation </h1> 
+<h1 align="center"> Safe Module Documentation </h1> 
 
 <p align="center">
   <img src="img/safe_logo.png" />
 </p>
 
 ## About
-Write a Safe Module that allows you to execute transactions via the Safe contract with an alternative access scheme.
+A Safe Module that allows you to execute transactions via the Safe contract with an alternative access scheme.
 
 ### Objective
 The contract written for this challenge should use alternative access functionality to allow accounts that are not related to the Safe, to withdraw a predetermined amount of a specific token.
@@ -13,7 +13,7 @@ The contract written for this challenge should use alternative access functional
 To better understand this, here is an example:
 Alice has set up a Safe which they use to hold all of their Unicorn tokens. They want to hand out unicorn tokens easily without having to trigger a transaction each time. Therefore they enable the module written in this challenge. Now they can generate a signature which allows anyone to withdraw Unicorn tokens from their Safe. With this, Alice generates a signature for a withdrawal of 10 Unicorn tokens and shares it with Bob. Now Bob can use this signature and interact with the module which will then send 10 Unicorn tokens from Alice’s Safe to Bob's address.
 
-## The Task
+
 - [x] The module should be specific to a token address and to a Safe. 
 
 - [x] A method to withdraw tokens via a transaction: => `execAllowanceTransfer()`
